@@ -1,0 +1,39 @@
+/* Write your CSS here */
+
+.each-app-list-container {
+  margin-right: 8px;
+  margin-left: 8px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 14px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-image {
+  width: 50px;
+  height: 50px;
+}
+
+@media (min-width: 768px) {
+  .each-app-list-container {
+    height: 100%;
+    width: 150px;
+  }
+
+  .app-image {
+    width: 70px;
+    height: 70px;
+  }
+}
+
+.app-name {
+  font-family: 'Bree Serif';
+  color: #1e293b;
+  font-weight: bold;
+  font-size: 14px;
+}
